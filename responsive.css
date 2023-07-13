@@ -1,0 +1,35 @@
+* {
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.container-2{
+   display: flex;
+   /* gap: 5px; */
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+.box {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+text-align: justify;
+}
+@media screen and (max-width : 576px) {
+    .container{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
